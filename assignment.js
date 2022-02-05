@@ -6,11 +6,11 @@ function anaToVori(ana) {
 anaToVori(48);
 
 // Problem - 2
-const singara_price = 7;
-const samosa_price = 10;
-const jilapi_price = 15;
-
 function pandaCost(singara_quantity, samosa_quantity, jilapi_quantity) {
+  const singara_price = 7;
+  const samosa_price = 10;
+  const jilapi_price = 15;
+
   var total_singara = singara_price * singara_quantity;
   var total_samosa = samosa_price * samosa_quantity;
   var total_jilapi = jilapi_price * jilapi_quantity;
